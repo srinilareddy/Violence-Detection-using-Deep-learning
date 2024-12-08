@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;  /* Light background for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #2C3E50;  /* Darker text color */
+    font-size: 32px;  /* Increased font size */
+    margin-bottom: 20px;
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-label {
+    font-size: 18px;  /* Increased font size */
+    color: #34495E;  /* Dark gray color */
+    margin-bottom: 15px;
+}
+
+#video-upload {
+    margin: 15px 0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#submit-btn {
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    color: #f39c12;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+#result-text {
+    font-size: 20px;
+    color: #333;
+}
+
+#video-preview {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Added styling for background of the page */
+body {
+    background-color: gray;  /* Lighter background color */
+    color: #0c8ba1;  /* Dark color for text */
+}
+

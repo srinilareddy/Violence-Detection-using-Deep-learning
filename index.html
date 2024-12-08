@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Violence Detection in Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Violence Detection in Video</h1>
+    <form id="upload-form">
+      <label for="video-upload" class="upload-label">
+        Upload a video for analysis:
+        <input type="file" id="video-upload" name="video-upload" accept="video/*" required>
+      </label>
+      <button type="submit" id="submit-btn">Upload Video</button>
+    </form>
+
+    <div id="loading" class="hidden">Processing video...</div>
+    <div id="result" class="hidden">
+      <h2>Analysis Result:</h2>
+      <p id="result-text"></p>
+    </div>
+
+    <div id="video-preview" class="hidden">
+      <video id="video-player" width="100%" controls>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
